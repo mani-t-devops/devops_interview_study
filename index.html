@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>2-Week DevOps & SRE Interview Study Hub (5+ YOE)</title>
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
+</head>
+<body>
+
+<div class="app-container">
+  <!-- SIDEBAR NAVIGATION -->
+  <aside class="sidebar" id="app-sidebar">
+    <div class="sidebar-header">
+      <div class="logo-badge">
+        <div class="logo-icon">&gt;_</div>
+        <div>
+          <div class="logo-title">DevOps Study Hub</div>
+          <div class="logo-subtitle">5 YOE Interview Master</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="sidebar-scroll">
+      <!-- Section: Interactive Tools -->
+      <div class="nav-section-title">Interactive Tools</div>
+      
+      <a class="nav-item active" data-nav-view="study-plan" href="#study-plan">
+        <svg class="nav-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+        </svg>
+        <span>14-Day Study Plan</span>
+      </a>
+
+      <a class="nav-item" data-nav-view="terminal" href="#terminal">
+        <svg class="nav-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+        </svg>
+        <span>Interactive Web CLI</span>
+        <span class="nav-pill">Lab</span>
+      </a>
+
+      <a class="nav-item" data-nav-view="simulator" href="#simulator">
+        <svg class="nav-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+        </svg>
+        <span>Incident War Room</span>
+        <span class="nav-pill">RCA</span>
+      </a>
+
+      <a class="nav-item" data-nav-view="flashcards" href="#flashcards">
+        <svg class="nav-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
+        </svg>
+        <span>50 Rapid-Fire Drill</span>
+        <span class="nav-pill">50 Qs</span>
+      </a>
+
+      <a class="nav-item" data-nav-view="star" href="#star">
+        <svg class="nav-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+        </svg>
+        <span>STAR Story Portfolio</span>
+      </a>
+
+      <a class="nav-item" data-nav-view="architectures" href="#architectures">
+        <svg class="nav-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17V7m0 10a2 2 0 01-2 2H5a2 2 0 01-2-2V7a2 2 0 012-2h2a2 2 0 012 2m0 10a2 2 0 002 2h2a2 2 0 002-2M9 7a2 2 0 012-2h2a2 2 0 012 2m0 10V7m0 10a2 2 0 002 2h2a2 2 0 002-2V7a2 2 0 00-2-2h-2a2 2 0 00-2 2" />
+        </svg>
+        <span>Architecture Visualizer</span>
+      </a>
+
+      <a class="nav-item" data-nav-view="cheatsheets" href="#cheatsheets">
+        <svg class="nav-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" />
+        </svg>
+        <span>Ninja Cheatsheets</span>
+      </a>
+
+      <!-- Section: 14 Days -->
+      <div class="nav-section-title">Week 1 & 2 Roadmap</div>
+      <div id="sidebar-days-list">
+        <!-- Rendered dynamically -->
+      </div>
+    </div>
+
+    <!-- Sidebar Footer / Progress Box -->
+    <div class="sidebar-footer">
+      <div class="progress-header">
+        <span style="font-weight: 600;">Overall Progress</span>
+        <span id="sidebar-progress-label">0% Complete</span>
+      </div>
+      <div class="progress-bar-container">
+        <div class="progress-bar-fill" id="sidebar-progress-fill"></div>
+      </div>
+    </div>
+  </aside>
+
+  <!-- MAIN WRAPPER -->
+  <div class="main-wrapper">
+    <!-- TOP NAVBAR -->
+    <header class="top-navbar">
+      <div class="top-left-actions">
+        <button class="menu-toggle-btn" id="mobile-menu-toggle" aria-label="Toggle navigation">
+          ☰
+        </button>
+        <button class="search-trigger-btn" id="search-trigger">
+          <svg style="width: 16px; height: 16px; color: var(--text-muted);" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+          </svg>
+          <span>Search 14 days, Q&A, commands...</span>
+          <span class="kbd-shortcut">⌘K</span>
+        </button>
+      </div>
+
+      <div class="top-right-actions">
+        <button class="action-btn" id="theme-toggle-btn">☀️ Light</button>
+        <a class="action-btn primary" href="#study-plan" onclick="window.app.switchMainTab('study-plan')">
+          ⚡ Daily Plan
+        </a>
+      </div>
+    </header>
+
+    <!-- CONTENT AREA -->
+    <main class="content-area">
+      <!-- VIEW 1: STUDY PLAN (DEFAULT) -->
+      <section id="view-study-plan">
+        <!-- Day Hero Banner -->
+        <div class="day-hero-card" id="day-hero-container">
+          <!-- Rendered dynamically -->
+        </div>
+
+        <!-- Timer Section Collapsible Widget -->
+        <div style="margin-bottom: 2rem;" id="study-timer-container">
+          <!-- StudyTimer component injected here -->
+        </div>
+
+        <!-- Tabs Navigation -->
+        <div class="tabs-navigation">
+          <button class="tab-btn active" data-subtab="theory">
+            <span>📚 Theory Deep Dive</span>
+          </button>
+          <button class="tab-btn" data-subtab="qa">
+            <span>🎯 Interview Q&A</span>
+            <span class="tab-badge">Senior vs Junior</span>
+          </button>
+          <button class="tab-btn" data-subtab="lab">
+            <span>🛠️ Hands-on Lab</span>
+          </button>
+          <button class="tab-btn" data-subtab="system-design">
+            <span>📐 System Design & Scenarios</span>
+          </button>
+          <button class="tab-btn" data-subtab="checklist">
+            <span>✓ Daily Checklist</span>
+          </button>
+        </div>
+
+        <!-- Subtab Panels -->
+        <div id="subtab-theory" class="tab-panel active"></div>
+        <div id="subtab-qa" class="tab-panel"></div>
+        <div id="subtab-lab" class="tab-panel"></div>
+        <div id="subtab-system-design" class="tab-panel"></div>
+        <div id="subtab-checklist" class="tab-panel"></div>
+      </section>
+
+      <!-- VIEW 2: INTERACTIVE WEB CLI TERMINAL -->
+      <section id="view-terminal" style="display: none;">
+        <div style="margin-bottom: 1.5rem;">
+          <h2 style="font-size: 1.5rem; font-weight: 800; color: var(--text-primary); margin-bottom: 0.35rem;">
+            Interactive Kubernetes & Linux Terminal Sandbox
+          </h2>
+          <p style="color: var(--text-secondary); font-size: 0.92rem;">
+            Run live diagnostic commands, investigate CrashLoopBackOff pods, inspect netstat/ss sockets, and test commands safely inside a simulated Linux/Kubernetes production bastion.
+          </p>
+        </div>
+        <div id="terminal-component-container"></div>
+      </section>
+
+      <!-- VIEW 3: INCIDENT WAR ROOM SIMULATOR -->
+      <section id="view-simulator" style="display: none;">
+        <div id="incident-sim-container"></div>
+      </section>
+
+      <!-- VIEW 4: 50 RAPID-FIRE FLASHCARDS -->
+      <section id="view-flashcards" style="display: none;">
+        <div id="flashcards-comp-container"></div>
+      </section>
+
+      <!-- VIEW 5: STAR STORY BUILDER -->
+      <section id="view-star" style="display: none;">
+        <div id="star-builder-comp-container"></div>
+      </section>
+
+      <!-- VIEW 6: ARCHITECTURE VISUALIZER -->
+      <section id="view-architectures" style="display: none;"></section>
+
+      <!-- VIEW 7: CHEATSHEETS -->
+      <section id="view-cheatsheets" style="display: none;"></section>
+    </main>
+  </div>
+</div>
+
+<!-- GLOBAL SEARCH MODAL (CMD+K) -->
+<div class="modal-overlay" id="search-modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <div style="display: flex; align-items: center; gap: 0.5rem; font-weight: 700; color: var(--text-primary); font-size: 1rem;">
+        <span>🔍 Search Interview Knowledge Base</span>
+      </div>
+      <button class="modal-close-btn" id="search-modal-close">&times;</button>
+    </div>
+    <div class="modal-body">
+      <input type="text" class="search-input-modal" id="search-modal-input" placeholder="Type a concept, question, or command (e.g. OOMKilled, IPVS, IRSA, ndots)..." />
+      <div class="search-results-list" id="search-results-list"></div>
+    </div>
+  </div>
+</div>
+
+<!-- DATA SCRIPTS -->
+<script src="js/data/days-data.js"></script>
+<script src="js/data/flashcards-data.js"></script>
+<script src="js/data/scenarios-data.js"></script>
+<script src="js/data/architectures-data.js"></script>
+<script src="js/data/cheatsheets-data.js"></script>
+
+<!-- COMPONENT SCRIPTS -->
+<script src="js/components/terminal.js"></script>
+<script src="js/components/timer.js"></script>
+<script src="js/components/incident-sim.js"></script>
+<script src="js/components/flashcards-comp.js"></script>
+<script src="js/components/star-builder.js"></script>
+<script src="js/components/search-engine.js"></script>
+
+<!-- APP CONTROLLER -->
+<script src="js/app.js"></script>
+
+</body>
+</html>
